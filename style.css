@@ -118,12 +118,12 @@
 .task-item >    .input[type="text"] {
   width: 226px
 }
-.delete .delete {
+.delete-button .delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete .delete:hover {
+.delete-button .delete:hover {
   transform: rotateZ(0);
 }
 
