@@ -60,8 +60,9 @@
 .section__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
-.main__section.section__title {
+.section__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +88,7 @@
 }
 
 /* New Task */
-.section__label[for="new-task"] {
+.main__section .section__title {
   display: block;
   margin: 0 0 20px;
 }
